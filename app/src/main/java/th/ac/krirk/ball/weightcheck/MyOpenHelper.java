@@ -18,9 +18,9 @@ public class MyOpenHelper extends SQLiteOpenHelper {
             "Weight text);";
     private static final String create_table_user = "create table userTABLE (" +
             "_id integer primary key, " +
-            "name text, " +
-            "email text, " +
-            "address text) ;";
+            "user text, " +
+            "password text, " +
+            "name text) ;";
 
     public MyOpenHelper(Context context) {
         super(context, database_name, null, database_version);
