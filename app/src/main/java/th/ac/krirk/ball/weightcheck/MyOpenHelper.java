@@ -22,7 +22,6 @@ public class MyOpenHelper extends SQLiteOpenHelper {
             "password text, " +
             "name text) ;";
 
-
     public MyOpenHelper(Context context) {
         super(context, database_name, null, database_version);
     } // Custructor
